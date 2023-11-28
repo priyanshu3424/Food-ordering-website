@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <style>
+             body{
+    background-color:rgb(252, 221, 156);
+}
+#maindivfornav{
+    display:flex;
+    flex-direction: row;
+    margin: 0 3%;
+    }
+#navbar{
+    background-image: url('momobackground.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+/*#navbar img{
+    opacity: 0.5;
+}*/
+.navimg{
+    margin: 0.5% 0;
+    padding: 1%;
+    background-color: black;
+    border-radius: 6%;
+}
+
+#logoimg{
+    width: 250px;
+    height: 120px;
+    
+    
+}
+.navul{
+    margin:2%;
+    margin-left: 8%;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+.navg{
+   display: flex;
+   margin-top: 2%;
+}
+.navg li{
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 50px;
+    list-style: none;
+}
+.navg li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 18px;
+    color: white;
+    border-radius: 10px;
+}
+.active{
+    color: green;
+}
+.navg li a:hover{
+    background-color: rgb(193, 239, 68);
+    color: black;
+}
+#login{
+  display: flex;
+  flex-direction: row;
+}
+.login{
+    margin:0% 3% ;
+    /*border: black 1px solid;*/
+    width: 500px;
+    height:400px;
+    margin-top: 2%;
+}
+label{
+    margin:10%;
+    font-weight: bolder;
+}
+ .button{
+    background-color:rgb(255, 99, 42);
+    padding: 3%; 
+    width: 300px;
+    margin-left:35%;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+
+}
+         </style>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <div id="maindivfornav">
+                    <div class="navimg">
+                        <img src="./images/momos.png" id="logoimg">
+
+                    </div>
+                    <div class="navul">
+                        <ul class="navg">
+                            <li><a href="index.html" class="active">HOME</a></li>
+                            <li><a href="#abtus">ABOUT US</a></li>
+                            <li><a href="menu.html" target="_blank">MENU</a></li>
+                            <li><a href="ordernow.html" target="_blank">ORDER
+                                    NOW</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="login">
+            <div class="login" style="background-color: white; padding: 0.5%;">
+                <img src="momobackground.jpg" width="499px" height="399px">
+            </div>
+            <div class="login">
+
+                <form
+                    style="background-color: cornsilk;padding: 2%;box-shadow: 10px 10px 8px #888888;height: 370px;"
+                    action="ordernow.html">
+                    <h2 style="text-align: center;font-family: cursive;">Sign in 
+                        to your account</h2><hr><br>
+                    <label>Username :</label>
+                    <input type="text" placeholder="Enter Username" name="name"
+                        required><br><br>
+                    <label>Password :</label>
+                    <input type="password" placeholder="Enter Password"
+                        name="password" required><br><br><br>
+                    <button class="button" type="submit"
+                        style=" width: 100px;margin-left:38%;">Log In</button><br>
+
+                    <h2 style="text-align: center;">Don't have account ?</h2><br>
+                    <a class="button" style="text-decoration: none;"
+                        href="register.html">Sign Up Now</a><br><br>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

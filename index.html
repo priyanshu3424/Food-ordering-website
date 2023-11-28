@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Momo Shop</title>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="momocss.css" /> 
+      
+        
+    </head>
+    <body>
+       <header>
+           <nav id="navbar"> 
+               <div id="maindivfornav">
+               <div class="navimg">
+                   <img src="./images/momos.png" id="logoimg"> 
+                   
+                   
+               </div>
+               
+               <div class="navul">
+                   <ul class="navg">
+                       <li><a href="index.html" class="active">HOME</a></li>
+                       <li><a href="#abtus">ABOUT US</a></li>
+                       <li><a href="menu.html" target="_blank">MENU</a></li>
+                       <li><a href="login.html" target="_blank">ORDER NOW</a></li>
+                   </ul>  
+                </div>
+            </div>
+          </nav>
+        </header>
+      
+        <div class="mySlides fade ">
+          
+          <img class="img" src="./images/ad.jpg" >
+          <!-- <div class="text">That golden crisp !<br><mark>Fried momos</mark></div> -->
+        </div>
+      
+        <div class="mySlides fade ">
+          
+          <img class="img" src="./images/ad1.jpg" >
+          <!-- <div class="text">How hot is too hot ???<br><mark> Chilli momos</mark></div> -->
+        </div>
+      </div>
+      
+      <br>
+      
+      <script type="text/javascript">  
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); 
+}
+    </script>
+<div name="aboutus" id="abtus">
+     <div style="padding-top: 0.5%;">
+     <!-- <h2 style="background-color: green; color: white;">Welcome to the ultimate destination for momos.</h2> -->
+    </div>
+    <div style="display: flex;flex-direction: row;">
+      
+        <div id="aboutus-para">
+        <p> Welcome to our Momo shop - a virtual destination for all momo lovers! At our online cafe, we've taken the art of crafting these delectable dumplings to new heights, allowing you to savor the flavors of the Himalayas from the comfort of your own home.
+
+          <br><br>
+          Our momos are not just a meal; they're a culinary journey. Each momo is a carefully handcrafted masterpiece, filled with a delicious blend of ingredients and folded to perfection. Whether you're a fan of the classic steamed momos or crave the crispy goodness of pan-fried varieties, our menu offers a diverse selection to satisfy every plate.
+        </p>
+        </div>
+        <div >
+          <img class="dikkat boderrr" src="./images/panfried.jpg">
+       </div>
+        
+    </div>
+
+  <div id="aboutus-images">
+     <img class="imagesabtus boderrr" src="https://static01.nyt.com/images/2012/02/22/dining/22DUMPLING1_SPAN/22DUMPLING1_SPAN-articleLarge-v2.jpg">
+     <img class="imagesabtus boderrr" src="https://thefoodxp.com/wp-content/uploads/2020/06/WOW-MOMO-menu.jpg" >
+     <img class="imagesabtus boderrr" src="https://b.zmtcdn.com/data/pictures/chains/8/18577178/52e240eb8972ad696d58e1c60b9368b6.jpg">
+     <img class="imagesabtus boderrr" src="https://im.whatshot.in/img/2020/Feb/untitled-collage-2-1580881912.jpg">
+     
+  </div>
+</div><br>
+<footer class="responsive-footer">
+  <div id="footer">
+    <div class="footer footer-left">
+      <p><u>Hours:</u><br> Monday to Friday: 10:00 AM - 9:00 PM <br>
+        Sunday: 10:00 AM - 10:00 PM <br>
+        Saturday Closed
+             
+      </p>
+    </div>
+    <div class="footer footer-center">
+      <p>
+        <u>Address:</u><br>
+Aadarsh Colony, Jaipur road, Kekri (Rajasthan)<br>
+      </p>
+    </div>
+    <div class="footer footer-right">
+      <p>
+        <u>Mail us at:</u><br>themomoshop@gmail.com<br><br>
+        <u>Contact no:</u><br> 9529946401
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

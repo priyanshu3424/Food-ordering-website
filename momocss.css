@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgba(240, 139, 61, 0.563)
+    /*background-color:rgb(255, 83, 83);*/
+   
+}
+#maindivfornav{
+    display:flex;
+    flex-direction: row;
+    margin: 0.2% 3%;
+    }
+#navbar{
+    background-image: url('momobackground.jpg');
+
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+
+}
+.navimg{
+    margin: 0.5% 0;
+    padding: 1%;
+    background-color: black;
+    border-radius: 6%;
+}
+
+#logoimg{
+    width: 250px;
+    height: 120px;
+
+
+}
+.navul{
+    margin:2%;
+    margin-left: 8%;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+.navg{
+   display: flex;
+   margin-top: 2%;
+}
+.navg li{
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 50px;
+    list-style: none;
+}
+.navg li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 18px;
+    color: white;
+    border-radius: 10px;
+}
+.active{
+    color: green;
+}
+.navg li a:hover{
+    background-color: rgb(190, 230, 81);
+    color: black;
+}
+
+h2{
+    margin: 1% 0;
+    background-color: rgb(156, 253, 237);
+    text-align: center;
+    color:black;
+    font-size: 200%;
+    word-spacing: 4px;
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+#maincon a:hover{
+background-color: white;
+color: darkblue;
+font-weight: bold;
+}
+.animate{
+    animation: animatecolor 1s infinite;
+}
+@keyframes animatecolor{
+    0%{color: green;}
+    50%{color:red;}
+    100%{color:blue;}
+}
+
+*{box-sizing:border-box;
+}
+.slideshow-container {
+    width: 1100px;
+    height: 420px;
+    
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    background-color: rgba(30, 131, 5, 0.5);
+    color: white;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10%;
+    left: 12.2%;
+    width: 1000px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .img{
+      width:1000px;
+      height:400px;
+      margin-left: 20%;
+    margin-right: 15%;
+    margin-top:20px;
+    border: 5px solid #fff;
+   align-items: center;
+
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  #abtus{
+      width: 1900px;
+      height: 640px;
+      background-color:rgb(108, 94, 24);
+  }
+  #aboutus-images{
+      padding-left: 9%;
+     
+  }
+  .imagesabtus{
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: solid 2px red;
+      margin: 2% 2%;
+     
+  }
+  #aboutus-logo{
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 4%;
+      padding:2% 5%;
+      width: 370px;
+      height: 200px;
+      border: solid 1px black;
+      background-color: black;
+  }
+  #aboutus-para{
+
+      width: 900px;
+      height: 300px;
+      
+  }
+  #aboutus-para p{
+    
+      padding: 3%;
+      font-size: 21px;
+      font-family: cursive;
+      justify-content: centers;
+  }
+  /* footer{
+  width: 100%;
+  margin-top: 1%;
+  background-color:rgb(36, 47, 202);
+  
+  } */
+  #footer{
+    width: 1900px;
+    margin-top: 1%;
+    background-color:rgb(63, 18, 63);
+     display: flex;
+     flex-direction: row;
+
+    }
+    .footer{
+        width: 400px;
+        margin: 1% 4%;
+        padding: 1% 2%;
+    }
+  .footer p{
+      color:cornsilk;
+      font-size: large;
+  }
+
+
+
+
+  .dikkat{
+    height: 70%;
+    width: 40%;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+
+
+
+  .boderrr{
+    border: 5px solid#fff;
+  }
